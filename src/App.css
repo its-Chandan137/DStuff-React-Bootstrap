@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+:root{
+  --bs-dark-color: #1a1d20;
+  --bs-dark-primary: #1c1c1c;
+  --bs-main-color: #fff;
+  --bs-primary-color: #c6c6c6;
+  --secondary-color: #29a9fd;
+  --bs-supporting-color: #C850C0;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--bs-dark-color);
+}
+
+h1{
+  font-size: 3.8rem;
+}
+
+h2{
+  line-height: 4rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+p{
+  margin: 0;
+  font-weight: 400;
+  font-size:  1rem;
+  color: var(--bs-dark-color);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+button, a{
+  font-size: 1.15rem !important;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.1rem;
+}
+
+   
+
+.common-heading{
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+
+.common-title{
+  margin-bottom: 4.2rem;
+}
+
+/* na-bar................. */
+
+.navbar{
+  background-image: 
+  linear-gradient(rgba(22,22,22,0.5), 
+                    rgba(22,22,22,0.9)), 
+                        url('src/images/Purple background.avif');
+  /*.................. For Paralax Effect.................. */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* padding: 6rem 0; */
+  overflow: hidden;
+}
+
+.nav-link{
+  color: var(--bs-main-color);
+  font-weight: bold;
+    &:hover{
+      color: var(--secondary-color) !important;
+    }
+}
+
+
+
+
+/* Hro section....................... */
+.heroSection{
+  background-image: 
+  linear-gradient(rgba(22,22,22,0.5), 
+                    rgba(22,22,22,0.9)), 
+                        url('src/images/Purple background.avif');
+  /*.................. For Paralax Effect.................. */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* padding: 6rem 0; */
+  overflow: hidden;
+}
+
+.heroSection .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.text-light-grey{
+  color: var(--bs-primary-color);
+}
+
+.bg-main{
+  height: 80lvh;
+  position: relative;
+}
+
+.bg-color{
+  background-color: var(--bs-dark-primary);
+}
+
+/* .bg-theme{
+  color: var(--bs-supporting-color);
+  background-image: none !important;
+} */
+
+.heroVideo{
+  height: auto;
+  width: 30rem;
+  border-radius: 2rem;
+}
+
+.custom-shape-divider-bottom-1708604161 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708604161 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1708604161 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* service section..................... */
+
+.serviceSection{
+  padding: 6rem 0 3rem 0 !important;
+}
+
+.iconSpan{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--secondary-color);
+  color: var(--bs-main-color);
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+/* serviceComponent........ */
+.serviceComponent{
+  width: 400px;
+}
+
+/* Digital prodict show section................ */
+
+.more-info-section{
+  /* ..................For Paralax Effect.................. */
+  background-image: 
+  linear-gradient(rgba(22,22,22,0.5), 
+                    rgba(22,22,22,0.9)), 
+                        url('src/images/Purple background.avif');
+  /*.................. For Paralax Effect.................. */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+
+.more-info-section .img-section{
+  position: relative;
+}
+
+.more-info-section .img-section img{
+  width: 70%;
+}
+
+/* newCustomer................... */
+
+.newCustomer{
+  height: fit-content;
+}
