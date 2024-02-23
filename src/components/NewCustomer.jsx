@@ -1,6 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import CustomerComponent from './CustomerComponent'
 
 function NewCustomer() {
+    const ref = useRef(null)
+    const data = [
+        {
+            img: "src/images/phone.gif",
+            text: "Lorem ipsum dolor sit amet elit. Excepturi odio random words init like git init told u random words! eos suscipi ipsa",
+        },
+        {
+            img: "src/images/map.gif",
+            text: "Lorem ipsum dolor sit amet elit. Excepturi odio random words init like git init told u random words! eos suscipi ipsa",
+        },
+        {
+            img: "src/images/link.gif",
+            text: "Lorem ipsum dolor sit amet elit. Excepturi odio random words init like git init told u random words! eos suscipi ipsa",
+        },
+        {
+            img: "src/images/speaker.gif",
+            text: "Lorem ipsum dolor sit amet elit. Excepturi odio random words init like git init told u random words! eos suscipi ipsa",
+        },
+    ]
   return (
     <section className='newCustomer'>
         <div className='serviceSection'>
@@ -11,27 +31,10 @@ function NewCustomer() {
         </div>
 
         <div className="container">
-            <div className="row">
-                <div className="col-12 col-lg-6">
-                    <div className="px-3 py-5 shadow h-90">
-                        <img className='d-md-block d-none img-fluid mx-3' src="src/images/phone.gif" width={"150px"} alt='GIF Image'/>
-                    </div>
-                </div>
-                <div className="col-12 col-lg-6">
-                    <div className="px-3 py-5 shadow h-90">
-                        <img className='d-md-block d-none img-fluid mx-3' src="src/images/phone.gif" width={"150px"} alt='GIF Image'/>
-                    </div>
-                </div>
-                <div className="col-12 col-lg-6">
-                    <div className="px-3 py-5 shadow h-90">
-                        <img className='d-md-block d-none img-fluid mx-3' src="src/images/phone.gif" width={"150px"} alt='GIF Image'/>
-                    </div>
-                </div>
-                <div className="col-12 col-lg-6">
-                    <div className="px-3 py-5 shadow">
-                        <img className='d-md-block d-none img-fluid mx-3' src="src/images/phone.gif" width={"150px"} alt='GIF Image'/>
-                    </div>
-                </div>
+            <div className="row d-flex g-5" ref={ref}>
+                {data.map((x,i)=>(
+                    <CustomerComponent data = {x} refrence = {ref} key={i}/>
+                ))}
             </div>
         </div>
     </section>

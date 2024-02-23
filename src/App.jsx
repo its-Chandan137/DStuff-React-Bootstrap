@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import ServiceSection from './components/ServiceSection'
 import DigitalProductShow from './components/DigitalProductShow'
 import NewCustomer from './components/NewCustomer'
+import LastSheet from './components/LastSheet'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ServiceSection/>
       <DigitalProductShow/>
       <NewCustomer/>
+      <LastSheet/>
     </div>
   )
 }

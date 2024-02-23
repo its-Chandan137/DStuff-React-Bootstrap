@@ -212,3 +212,43 @@ button, a{
 .newCustomer{
   height: fit-content;
 }
+
+.customerComponent{
+  width: 48%;
+}
+
+/* clients.................. */
+
+.clients{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* .carousel-inner{
+  align-items: start;
+} */
+
+.card{
+  background-color: #262631;
+  color: var(--bs-main-color);
+  display: flex;
+  justify-content: center;
+}
+
+.card:hover{
+  background-color: var(--bs-main-color);
+  color: var(--bs-dark-color);
+  transition: 0.3s ease;
+}
+
+.card p{
+  color: var(--bs-main-color);
+    &:hover{
+      color: var(--bs-dark-color);
+    }
+}
+
+.carousel-indicators{
+  bottom: -20%;
+}

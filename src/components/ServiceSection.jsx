@@ -24,7 +24,7 @@ function ServiceSection() {
 
   return (
     <>
-        <div className='serviceSection mw-fit-content'>
+        <div className='serviceSection mw-fit-content mb-5'>
             <div className="container text-center common-title fw-bold">
                 <h2 className='common-heading'>What will you do for <br/>Your Mind</h2>
                 <hr className='w-25 mx-auto'/>
