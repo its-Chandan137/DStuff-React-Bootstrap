@@ -10,12 +10,12 @@ function ServiceSection() {
             title: "I Don't Know",
         },
         {
-            img: "../src/assets/common/speaker.gif",
+            img: "../images/speaker.gif",
             text: "Deserunt sit , necessitatibus quasi dolore eius perferendi laborum.",
             title: "Speaker",
         },
         {
-            img: "src/images/map.gif",
+            img: "../images/map.gif",
             text: "Deserunt sit , necessitatibus quasi dolore eius perferendi laborum.",
             title: "Location",
         },
