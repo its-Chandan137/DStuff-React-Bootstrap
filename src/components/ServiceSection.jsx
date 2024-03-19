@@ -10,7 +10,7 @@ function ServiceSection() {
             title: "I Don't Know",
         },
         {
-            img: "src/assets/images/speaker.gif",
+            img: "../src/assets/common/speaker.gif",
             text: "Deserunt sit , necessitatibus quasi dolore eius perferendi laborum.",
             title: "Speaker",
         },
