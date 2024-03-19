@@ -9,7 +9,7 @@ function DigitalProductShow() {
 
                 <div className="col-12 col-md-12 col-lg-6 img-section">
                     <figure>
-                        <img src="src/images/phone.gif" alt="Digital Product" className='img-fluid'/>
+                        <img src="../images/phone.gif" alt="Digital Product" className='img-fluid'/>
                     </figure>
                 </div>
 
