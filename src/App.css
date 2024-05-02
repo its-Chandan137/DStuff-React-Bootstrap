@@ -5,6 +5,10 @@
   font-family: "Urbanist", sans-serif;
 }
 
+body{
+  line-height: 0%;
+}
+
 :root{
   --bs-dark-color: #1a1d20;
   --bs-dark-primary: #1c1c1c;
@@ -111,8 +115,14 @@ button, a{
 .heroSection .container{
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: inherit;
+  align-items: start;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  height: 800px;
+}
+
+.heroSection{
+  height: 800px;
 }
 
 .text-light-grey{
